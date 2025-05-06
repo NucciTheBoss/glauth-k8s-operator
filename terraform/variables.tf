@@ -20,7 +20,7 @@ variable "config" {
 variable "constraints" {
   description = "The constraints to be applied"
   type        = string
-  default     = ""
+  default     = "arch=amd64"
 }
 
 variable "units" {
